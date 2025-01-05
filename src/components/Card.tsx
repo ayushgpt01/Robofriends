@@ -1,6 +1,6 @@
-import React from "react";
+import { IRobot } from "../types/Data.types";
 
-const Card = ({ name, email, id }) => {
+const Card = ({ name, email, id }: IRobot) => {
   return (
     <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
       <img alt='Robo' src={`https://robohash.org/${id}?200*200`} />
