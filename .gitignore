@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /vite
+/dist
 
 # testing
 /coverage
